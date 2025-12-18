@@ -1155,6 +1155,7 @@
                     <div class="tabs-scroll">
 
                      <button class="tab active" data-cat="all">All</button>
+  <button class="tab" data-cat="maharashtriyan">Maharashtriyan</button>
 <button class="tab" data-cat="Dosa / डोसा">Dosa</button>
 <button class="tab" data-cat="Breakfast / नाश्ता">Breakfast</button>
 <button class="tab" data-cat="Snacks / स्नॅक्स">Snacks</button>
@@ -1306,22 +1307,33 @@
         // Menu Data
         const data = [
 
+{"id": 36, "cat": "maharashtriyan", "name": "कट वडा 2 नग / Cut Vada 2 Pieces", "price": "₹50", "desc": "Cut vada served with chutney", "tags": ["Veg", "Snack"], "img": "img/cut_vada_2.jpeg"},
+{"id": 37, "cat": "maharashtriyan", "name": "कट वडा 1 नग / Cut Vada 1 Piece", "price": "₹25", "desc": "Single cut vada", "tags": ["Veg", "Snack"], "img": "img/cut_vada_1.jpeg"},
+{"id": 38, "cat": "maharashtriyan", "name": "वडा पाव 2 नग / Vada Pav 2 Pieces", "price": "₹30", "desc": "Vada pav - 2 pieces", "tags": ["Veg", "Snack", "Fast Food"], "img": "img/vada_pav_2.jpeg"},
+{"id": 39, "cat": "maharashtriyan", "name": "मिर्ची भजे / Mirchi Bhajje", "price": "₹20", "desc": "Fried chili fritters", "tags": ["Veg", "Snack"], "img": "img/mirchi_bhajje.jpeg"},
+{"id": 40, "cat": "maharashtriyan", "name": "कांदा भजे / Kanda Bhajje", "price": "₹20", "desc": "Onion fritters", "tags": ["Veg", "Snack"], "img": "img/kanda_bhajje.jpeg"},
+
+            
             
     {"id": 1, "cat": "Dosa / डोसा", "name": "Plain Dosa / प्लेन डोसा", "price": "₹60", "desc": "Crispy traditional south Indian plain dosa.", "tags": ["Veg", "Dosa", "South Indian"], "img": "img/Plain_Dosa.jpg"},
     {"id": 2, "cat": "Dosa / डोसा", "name": "Masala Dosa / मसाला डोसा", "price": "₹70", "desc": "Dosa stuffed with spicy potato masala filling.", "tags": ["Veg", "Dosa", "Masala"], "img": "img/Masala_Dosa.jpg"},
     {"id": 3, "cat": "Dosa / डोसा", "name": "Onion Dosa / युनियन डोसा", "price": "₹70", "desc": "Dosa topped with finely chopped onions.", "tags": ["Veg", "Dosa", "Onion"], "img": "img/Onion_Dosa.jpg"},
-    {"id": 4, "cat": "Uttappa / उत्तप्पा", "name": "Plain Uttappa / प्लेन उत्तप्पा", "price": "₹60", "desc": "Thick rice pancake topped with mild seasonings.", "tags": ["Veg", "Uttappa"], "img": "img/Plain_Uttappa.jpg"},
-    {"id": 5, "cat": "Uttappa / उत्तप्पा", "name": "Cheese Uttappa / चीज उत्तप्पा", "price": "₹90", "desc": "Thick rice pancake topped with a generous layer of cheese.", "tags": ["Veg", "Uttappa", "Cheese"], "img": "img/Cheese_Uttappa.jpg"},
+    {"id": 4, "cat": "Dosa / डोसा", "name": "Plain Uttappa / प्लेन उत्तप्पा", "price": "₹60", "desc": "Thick rice pancake topped with mild seasonings.", "tags": ["Veg", "Uttappa"], "img": "img/Plain_Uttappa.jpg"},
+    {"id": 5, "cat": "Dosa / डोसा", "name": "Cheese Uttappa / चीज उत्तप्पा", "price": "₹90", "desc": "Thick rice pancake topped with a generous layer of cheese.", "tags": ["Veg", "Uttappa", "Cheese"], "img": "img/Cheese_Uttappa.jpg"},
+    {"id": 12, "cat": "Dosa / डोसा", "name": "Paneer Dosa / पनीर डोसा", "price": "₹80", "desc": "Dosa stuffed with spicy paneer filling.", "tags": ["Veg", "Dosa", "Paneer"], "img": "img/Paneer_Dosa.jpg"},
+    {"id": 13, "cat": "Dosa / डोसा", "name": "Cheese Dosa / चीज डोसा", "price": "₹80", "desc": "Dosa filled with melted cheese.", "tags": ["Veg", "Dosa", "Cheese"], "img": "img/Cheese_Dosa.jpg"},
+    {"id": 15, "cat": "Dosa / डोसा", "name": "Cut Dosa / कट डोसा", "price": "₹90", "desc": "Crispy dosa cut into pieces with special masala.", "tags": ["Veg", "Dosa", "Cut"], "img": "img/Cut_Dosa.jpg"},
+
+            
     {"id": 6, "cat": "Breakfast / नाश्ता", "name": "Upit Full / उपीट फुल", "price": "₹40", "desc": "Full plate of savory semolina porridge (Upma).", "tags": ["Veg", "Breakfast", "Upit", "Full"], "img": "img/Upit_Full.jpg"},
     {"id": 7, "cat": "Breakfast / नाश्ता", "name": "Upit Half / उपीट हाफ", "price": "₹20", "desc": "Half plate of savory semolina porridge (Upma).", "tags": ["Veg", "Breakfast", "Upit", "Half"], "img": "img/Upit_Full.jpg"},
     {"id": 8, "cat": "Breakfast / नाश्ता", "name": "Shira Full / शिरा फुल", "price": "₹40", "desc": "Full plate of sweet semolina halwa.", "tags": ["Veg", "Breakfast", "Shira", "Full"], "img": "img/Shira_Full1.jpeg"},
     {"id": 9, "cat": "Breakfast / नाश्ता", "name": "Shira Half / शिरा हाफ", "price": "₹20", "desc": "Half plate of sweet semolina halwa.", "tags": ["Veg", "Breakfast", "Shira", "Half"], "img": "img/Shira_Full1.jpeg"},
     {"id": 10, "cat": "Breakfast / नाश्ता", "name": "Pohe Full / पोहे फुल", "price": "₹40", "desc": "Full plate of flattened rice tempered with spices.", "tags": ["Veg", "Breakfast", "Pohe", "Full"], "img": "img/Pohe_Full.jpg"},
     {"id": 11, "cat": "Breakfast / नाश्ता", "name": "Pohe Half / पोहे हाफ", "price": "₹20", "desc": "Half plate of flattened rice tempered with spices.", "tags": ["Veg", "Breakfast", "Pohe", "Half"], "img": "img/Pohe_Full.jpg"},
-    {"id": 12, "cat": "Dosa / डोसा", "name": "Paneer Dosa / पनीर डोसा", "price": "₹80", "desc": "Dosa stuffed with spicy paneer filling.", "tags": ["Veg", "Dosa", "Paneer"], "img": "img/Paneer_Dosa.jpg"},
-    {"id": 13, "cat": "Dosa / डोसा", "name": "Cheese Dosa / चीज डोसा", "price": "₹80", "desc": "Dosa filled with melted cheese.", "tags": ["Veg", "Dosa", "Cheese"], "img": "img/Cheese_Dosa.jpg"},
+    {"id": 41, "cat": "Breakfast / नाश्ता", "name": "डाळच्या राईस / Dal Rice", "price": "₹50", "desc": "Rice with lentil curry", "tags": ["Veg", "Breakfast"], "img": "img/dal_rice.jpeg"},
+
     {"id": 14, "cat": "Snacks / स्नॅक्स", "name": "Tomato Omlet / टमाटर ऑम्लेट", "price": "₹80", "desc": "Savory gram flour pancake with tomatoes and onions.", "tags": ["Veg", "Snacks", "Tomato"], "img": "img/Tomato_Omlet.jpg"},
-    {"id": 15, "cat": "Dosa / डोसा", "name": "Cut Dosa / कट डोसा", "price": "₹90", "desc": "Crispy dosa cut into pieces with special masala.", "tags": ["Veg", "Dosa", "Cut"], "img": "img/Cut_Dosa.jpg"},
     {"id": 16, "cat": "Dessert / गोड", "name": "Gulab Jamun (2 Piece) / गुलाब जामुन", "price": "₹30", "desc": "Sweet milk-solid balls dipped in sugar syrup (2 pieces).", "tags": ["Veg", "Sweet", "Jamun"], "img": "img/Gulab_Jamun.jpg"},
     {"id": 17, "cat": "Meals / जेवण", "name": "Special Puri Bhaji / स्पेशल पुरी भाजी", "price": "₹70", "desc": "Puri served with special potato curry and extras.", "tags": ["Veg", "Puri Bhaji", "Special"], "img": "img/Special_Puri_Bhaji.jpg"},
     {"id": 18, "cat": "Snacks / स्नॅक्स", "name": "Puri Bhaji / पुरी भाजी", "price": "₹50", "desc": "Standard puri served with flavorful potato curry.", "tags": ["Veg", "Puri Bhaji"], "img": "img/Puri_Bhaji.jpg"},
@@ -1342,7 +1354,14 @@
     {"id": 33, "cat": "Cold Drinks / कोल्ड्रिंक्स", "name": "Jeera / जीरा", "price": "₹MRP", "desc": "Masala Jeera soda for digestion.", "tags": ["Drink", "Cold", "Jeera"], "img": "img/Jeera_Drink.jpg"},
     {"id": 34, "cat": "Cold Drinks / कोल्ड्रिंक्स", "name": "Sting / स्टिंग", "price": "₹MRP", "desc": "Energy drink for an instant boost.", "tags": ["Drink", "Cold", "Energy"], "img": "img/Sting.jpg"},
     {"id": 35, "cat": "Cold Drinks / कोल्ड्रिंक्स", "name": "7 Up / सेव्हन अप", "price": "₹MRP", "desc": "Cooling 7 Up soda.", "tags": ["Drink", "Cold", "7Up"], "img": "img/7Up.jpg"},
+{"id": 42, "cat": "Cold Drinks / कोल्ड्रिंक्स", "name": "Red Bull", "price": "₹150", "desc": "Energy drink", "tags": ["Non-Alcoholic", "Beverage", "Energy Drink"], "img": "img/red_bull.jpeg"},
+{"id": 43, "cat": "Cold Drinks / कोल्ड्रिंक्स", "name": "Fanta", "price": "₹60", "desc": "Orange flavored soft drink", "tags": ["Non-Alcoholic", "Beverage"], "img": "img/fanta.jpeg"},
+{"id": 44, "cat": "Cold Drinks / कोल्ड्रिंक्स", "name": "Coca Cola", "price": "₹60", "desc": "Cola flavored soft drink", "tags": ["Non-Alcoholic", "Beverage"], "img": "img/coca_cola.jpeg"}
 
+
+
+
+            
 ];
 // Cart functionality
         let cart = [];
